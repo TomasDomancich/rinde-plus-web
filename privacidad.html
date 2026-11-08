@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="es-AR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacidad · Rinde+</title>
+  <meta name="description" content="Qué datos usa Rinde+, dónde se guardan y cómo borrarlos.">
+  <link rel="icon" href="img/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <img src="img/logo.svg" alt="">
+    <a class="brand" href="./">Rinde+</a>
+    <nav>
+      <a href="./">Inicio</a>
+      <a href="privacidad.html" aria-current="page">Privacidad</a>
+      <a href="condiciones.html">Condiciones</a>
+    </nav>
+  </div>
+</header>
+<main class="wrap">
+  <h1>Política de privacidad</h1>
+  <p class="small">Última actualización: 8 de noviembre de 2026</p>
+
+  <p>Rinde+ es una app para Android y Android Auto que estima el combustible que queda en el tanque. Esta página
+    explica qué datos usa, dónde se guardan y cómo borrarlos. Responsable: Tomás Domancich
+    (<a href="mailto:tomasdomancich.dev@gmail.com">tomasdomancich.dev@gmail.com</a>).</p>
+
+  <div class="card">
+    <strong>En resumen:</strong> la app funciona sin cuenta y sin internet, y todo queda en tu celular. Solo si iniciás
+    sesión con Google se guarda una copia en la nube, que ves únicamente vos. No hay publicidad, no hay analíticas y
+    tus datos no se venden ni se comparten.
+  </div>
+
+  <h2>Qué datos usa la app</h2>
+  <ul>
+    <li><strong>Datos del auto:</strong> nombre, capacidad del tanque, consumos de referencia y si tiene GNC.</li>
+    <li><strong>Cargas de combustible:</strong> fecha, odómetro, litros o m³, precio, total pagado y una nota opcional.</li>
+    <li><strong>Km recorridos:</strong> los km medidos con el GPS y cómo se repartieron entre ciudad, mixto y ruta, y
+      un resumen de cada viaje (inicio, fin, km, velocidad máxima). <strong>No se guardan recorridos, coordenadas ni
+      lugares</strong>: la ubicación se usa en el momento para sumar distancia y se descarta.</li>
+    <li><strong>Mantenimiento:</strong> los recordatorios que cargues (aceite, filtros, cubiertas, VTV).</li>
+    <li><strong>Bluetooth del auto</strong> (opcional, para autos sin Android Auto): la dirección del equipo Bluetooth
+      que elegiste, para saber cuándo te conectás al auto. Queda solo en el celular.</li>
+  </ul>
+
+  <h2>Permisos del celular</h2>
+  <ul>
+    <li><strong>Ubicación:</strong> solo mientras la app mide km (con una notificación visible todo el tiempo). Se
+      apaga sola al desconectar el auto, al desconectarse su Bluetooth o tras 15 minutos sin moverse. La opción
+      "Permitir todo el tiempo" es opcional y solo sirve para que el GPS arranque solo al conectarte al Bluetooth del auto.</li>
+    <li><strong>Notificaciones:</strong> para avisarte cuando el tanque entra en reserva y mientras mide.</li>
+    <li><strong>Dispositivos cercanos (Bluetooth):</strong> solo para enterarse de que el celular se conectó o
+      desconectó del Bluetooth del auto que elegiste. La app no busca ni se conecta a ningún dispositivo.</li>
+    <li><strong>Cámara:</strong> la app no pide permiso de cámara; usa la cámara del sistema cuando escaneás un surtidor.</li>
+  </ul>
+
+  <h2>Fotos del escaneo</h2>
+  <p>Las fotos del surtidor o del tablero se leen <strong>en el celular</strong>, sin internet, y se borran apenas se
+    leen. Solo si activás "Guardar las fotos del escaneo en Google Drive" se suben a una carpeta "Rinde+" de
+    <strong>tu</strong> Google Drive. Para eso la app usa el permiso <code>drive.file</code>, que le permite ver y
+    crear únicamente los archivos que ella misma crea: no puede ver el resto de tu Drive.</p>
+
+  <h2>Copia en la nube (opcional)</h2>
+  <p>Si iniciás sesión con Google, tus datos del auto, cargas, viajes, mantenimiento y km sin medir se copian a una
+    base de datos en <a href="https://supabase.com" rel="noopener">Supabase</a>, para no perderlos si cambiás de
+    celular. De tu cuenta de Google se usan tu dirección de email y tu identificador de Google, solo para iniciar
+    sesión. La base tiene seguridad por fila: cada usuario puede leer y escribir únicamente sus propios datos. La
+    dirección del Bluetooth del auto no se sube.</p>
+  <p>Además, Android puede incluir los datos de la app en la copia de seguridad de tu cuenta de Google, si la tenés
+    activada en el celular. Esa copia la maneja Android, no Rinde+.</p>
+
+  <h2>Con quién se comparten</h2>
+  <p>Con nadie. No se venden, no se usan para publicidad y no se comparten con terceros. Los únicos servicios que
+    intervienen son los que usás vos: Google (inicio de sesión y Drive, si lo activás) y Supabase (copia en la nube,
+    si iniciás sesión).</p>
+
+  <h2>Cómo borrar tus datos</h2>
+  <ul>
+    <li><strong>Desde la app:</strong> Auto → Nube → <em>Borrar mi cuenta y mis datos</em>. Borra todo lo que hay en
+      la nube y cierra la sesión.</li>
+    <li><strong>Por email:</strong> escribí a <a href="mailto:tomasdomancich.dev@gmail.com">tomasdomancich.dev@gmail.com</a>
+      desde la cuenta con la que iniciaste sesión y se borran tu cuenta y tus datos dentro de los 30 días.</li>
+    <li><strong>En el celular:</strong> desinstalar la app borra los datos locales (y las fotos de Drive quedan en tu
+      Drive, donde las podés borrar vos).</li>
+  </ul>
+
+  <h2>Menores</h2>
+  <p>La app está pensada para personas que manejan; no está dirigida a menores de edad.</p>
+
+  <h2>Cambios</h2>
+  <p>Si esta política cambia, se actualiza esta página con la nueva fecha.</p>
+</main>
+<footer>
+  <div class="wrap">
+    <a href="./">Inicio</a>
+    <a href="condiciones.html">Condiciones de uso</a>
+    <span>© 2026 Rinde+</span>
+  </div>
+</footer>
+</body>
+</html>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Rinde+ — logo vectorial (misma geometría que app/src/main/res/drawable/ic_launcher_foreground.xml). -->
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#0E3B57"/>
+  <g fill="none" stroke="#FFFFFF">
+    <path stroke-width="55" d="M108,152.5 H282 A67.5,67.5 0 0,1 282,287.5 H245"/>
+    <path stroke-width="56" d="M258,280 L332,405"/>
+  </g>
+  <path fill="#FFFFFF" d="M88,405 C125,310 195,262 288,247 L300,262 C238,290 207,335 200,405 Z"/>
+  <g fill="none" stroke="#0E3B57">
+    <path stroke-width="9" d="M155.7,368.9 L165.6,348.2"/>
+    <path stroke-width="8" d="M183.5,321.3 L197.6,306"/>
+    <path stroke-width="6.5" d="M221.9,286.7 L236.5,277.9"/>
+    <path stroke-width="5" d="M260.4,266.7 L273.4,257.4"/>
+  </g>
+  <path fill="#FFFFFF" d="M352,305 H452 V335 H352 Z M387,270 H417 V370 H387 Z"/>
+</svg>
